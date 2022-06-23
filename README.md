@@ -1,7 +1,9 @@
 # [Vue JS 2] README
-> SKILL : `vue.js v2.x`
+> SKILL : `vue.js v2.x`, `BootstrapVue`
 > <br>
 > Vue 2 Docs : [Vue 2 Docs](https://v2.vuejs.org)
+> <br>
+> Bootstrap Vue Docs : [Bootstrap Vue Docs](https://bootstrap-vue.org/docs)
 > <br>
 > YouTube Class: [개발자의품격](https://youtu.be/sqH0u8wN4Rs)
 
@@ -59,6 +61,14 @@ vue3가 나온 시점에 vue2를 학습하고 있다보니 vue router 설치시 
 또는
 ➜ npm install vue-router@3
 ```
+
+### Bootstrap Vue 설치
+[설치 참고](https://bootstrap-vue.org/docs#using-module-bundlers)
+```bash
+➜ npm install vue bootstrap bootstrap-vue
+```
+
+
 
 # vue2-beginner
 
