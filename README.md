@@ -52,6 +52,13 @@ added 83 packages in 10s
 
 ```
 
+### Vue Router 설치
+vue3가 나온 시점에 vue2를 학습하고 있다보니 vue router 설치시 `vue-router@3`로 해줘야한다.
+```bash
+➜ npm install vue-router --save
+또는
+➜ npm install vue-router@3
+```
 
 # vue2-beginner
 
