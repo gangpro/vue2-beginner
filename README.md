@@ -68,6 +68,29 @@ vue3가 나온 시점에 vue2를 학습하고 있다보니 vue router 설치시 
 ➜ npm install vue bootstrap bootstrap-vue
 ```
 
+main.js에 bootstrap-vue 적용하기
+```text
+import Vue from 'vue'
+import App from './App.vue'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+
+// Import Bootstrap and BootstrapVue CSS files (order is important)
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+// Make BootstrapVue available throughout your project
+Vue.use(BootstrapVue)
+// Optionally install the BootstrapVue icon components plugin
+Vue.use(IconsPlugin)
+
+Vue.config.productionTip = false
+
+new Vue({
+  render: h => h(App),
+}).$mount('#app')
+
+```
+
 
 
 # vue2-beginner
