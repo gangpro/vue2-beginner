@@ -27,7 +27,7 @@ Vue CLI v5.0.6
 
 
 Vue CLI v5.0.6
-✨  Creating project in /Users/kang/Library/Mobile Documents/com~apple~CloudDocs/Developer/Vue/vue2-beginner.
+✨  Creating project in ../vue2-beginner.
 🗃  Initializing git repository...
 ⚙️  Installing CLI plugins. This might take a while...
 
